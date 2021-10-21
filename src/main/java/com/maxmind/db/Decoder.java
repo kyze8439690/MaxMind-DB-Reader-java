@@ -394,8 +394,8 @@ final class Decoder {
 
             parameterIndexes = new HashMap<>();
             Annotation[][] annotations = constructor.getParameterAnnotations();
-            for (int i = 0; i < constructor.getParameterCount(); i++) {
-                String parameterName = this.getParameterName(cls, i, annotations[i]);
+            for (int i = 0; i < constructor.getParameterTypes().length; i++) {
+                String parameterName = getParameterName(cls, i, annotations[i]);
                 parameterIndexes.put(parameterName, i);
             }
 
