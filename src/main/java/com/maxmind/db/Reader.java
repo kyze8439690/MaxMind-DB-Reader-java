@@ -4,11 +4,10 @@ import java.io.Closeable;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.Class;
 import java.net.InetAddress;
 import java.nio.ByteBuffer;
-import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * Instances of this class provide a reader for the MaxMind DB format. IP

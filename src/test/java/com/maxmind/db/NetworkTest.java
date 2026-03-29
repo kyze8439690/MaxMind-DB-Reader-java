@@ -1,11 +1,11 @@
 package com.maxmind.db;
 
+import static junit.framework.TestCase.assertEquals;
+
 import org.junit.Test;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-
-import static junit.framework.TestCase.assertEquals;
 
 public class NetworkTest {
     @Test
